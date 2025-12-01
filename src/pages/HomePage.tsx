@@ -1,13 +1,11 @@
 import { Grid, GridItem } from "@chakra-ui/react";
-import HeroBox from "../components/HeroBox";
+import HeroHomePage from "../components/HeroHomePage";
 
 const HomePage = () => {
   return (
     <Grid templateAreas={` "main"`}>
-      
-
       <GridItem area="main">
-        <HeroBox />
+        <HeroHomePage />
       </GridItem>
     </Grid>
   );

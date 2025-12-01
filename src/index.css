@@ -94,7 +94,7 @@ html {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
-  background-image: url('/backgroundImageHero.png');
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -106,7 +106,7 @@ body {
   padding: 0;
   height: 100%;
   background-color: #ffffff;
-  background-image: url('/backgroundImageHero.png');
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -6,19 +6,31 @@ import Footer from "../components/FooterApp";
 
 const Layout = () => {
   return (
-    <>
+    <Box position="relative" minH="100vh">
       
-      <Box hideBelow="lg" >
-        <NavBar />
+      <Box
+        as="header"
+        position="absolute"
+        top={0}
+        left={0}
+        w="100%"
+        zIndex={100}
+      >
+        <Box hideBelow="lg">
+          <NavBar />       
+        </Box>
+        <Box hideFrom="lg">
+          <MobileNav />    
+        </Box>
       </Box>
-      <Box hideFrom="lg">
-        <MobileNav />
-      </Box>
-      <div id="main">
+
+     
+      <Box as="main">
         <Outlet />
-      </div>
+      </Box>
+
       <Footer />
-    </>
+    </Box>
   );
 };
 
