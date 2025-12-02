@@ -30,24 +30,25 @@ function CareerPathContent() {
   return (
     <VStack
       align={{ base: "center", lg: "flex-start" }}
-      gap="30px"
-      w={{ base: "100%", lg: "589px" }}
+      gap={{ base: "32px", md: "40px", lg: "30px" }}
+      w={{ base: "100%", md: "80%", lg: "589px", xl: "650px" }}
       dir="rtl"
     >
-      <VStack align="flex-start" gap="20px" w="100%">
+      <VStack align={{ base: "center", lg: "flex-start" }} gap={{ base: "24px", md: "32px", lg: "20px" }} w="100%">
         <Text
           color="white"
-          fontSize={{ base: "24px", lg: "32px" }}
+          fontSize={{ base: "24px", sm: "26px", md: "28px", lg: "32px", xl: "40px" }}
           fontFamily={fonts.heading}
           fontWeight="800"
-          lineHeight="40px"
+          lineHeight={{ base: "30px", lg: "40px" }}
+          textAlign={{ base: "center", lg: "right" }}
         >
           مسیر های شغلی
         </Text>
 
-        <VStack align="flex-start" gap="32px" w="100%">
-          <VStack align="flex-start" gap="5px" w="100%">
-            <HStack gap="32px" justify="flex-start" w="100%">
+        <VStack align={{ base: "center", lg: "flex-start" }} gap={{ base: "20px", lg: "32px" }} w="100%">
+          <VStack align={{ base: "center", lg: "flex-start" }} gap="5px" w="100%">
+            <HStack gap={{ base: "20px", sm: "25px", lg: "32px" }} justify={{ base: "center", lg: "flex-start" }} w="100%">
               {tabs.map((tab) => (
                 <Box
                   key={tab.id}
@@ -58,7 +59,7 @@ function CareerPathContent() {
                 >
                   <Text
                     color={activeTab === tab.id ? "white" : "#C3C3C3"}
-                    fontSize="18px"
+                    fontSize={{ base: "16px", sm: "17px", lg: "18px", xl: "20px" }}
                     fontFamily={activeTab === tab.id ? fonts.bold : fonts.semiBold}
                     fontWeight={activeTab === tab.id ? "900" : "600"}
                   >
@@ -70,12 +71,12 @@ function CareerPathContent() {
 
             <Text
               color="white"
-              fontSize="18px"
+              fontSize={{ base: "16px", sm: "17px", lg: "18px", xl: "20px" }}
               fontFamily={fonts.faNum}
               fontWeight="400"
-              lineHeight="28px"
-              textAlign="right"
-              minH="84px" // Prevent layout shift
+              lineHeight={{ base: "24px", lg: "28px" }}
+              textAlign={{ base: "center", lg: "right" }}
+              minH={{ base: "auto", lg: "84px" }} // Prevent layout shift
             >
               {tabs.find((tab) => tab.id === activeTab)?.description}
             </Text>
