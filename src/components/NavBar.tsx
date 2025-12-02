@@ -19,6 +19,7 @@ const NavBar = () => {
         gap={2}
         flexWrap="nowrap"
         my={"1%"}
+        
       >
        
           <Link
@@ -185,8 +186,8 @@ const NavBar = () => {
               color: colors.white,
               textDecoration: "none",
               backgroundColor: colors.button.transparent,
-              padding: "8px 16px",
-              borderRadius: "8px",
+              
+              
               transition: "all 0.2s",
               whiteSpace: "nowrap",
               display: "inline-block",

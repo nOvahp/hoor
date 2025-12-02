@@ -2,7 +2,7 @@
 @font-face {
 	font-family: 'PeydaWeb-Thin';
 	src: url('/fonts/02 Web Font/Font Family WebFont/woff2/PeydaWeb-Thin.woff2') format('woff2'),
-		 url('/fonts/02 Web Font/Font Family WebFont/woff/PeydaWeb-Thin.woff') format('woff');
+		url('/fonts/02 Web Font/Font Family WebFont/woff/PeydaWeb-Thin.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -11,7 +11,7 @@
 @font-face {
 	font-family: 'PeydaWeb-ExtraLight';
 	src: url('/fonts/02 Web Font/Font Family WebFont/woff2/PeydaWeb-ExtraLight.woff2') format('woff2'),
-		 url('/fonts/02 Web Font/Font Family WebFont/woff/PeydaWeb-ExtraLight.woff') format('woff');
+		url('/fonts/02 Web Font/Font Family WebFont/woff/PeydaWeb-ExtraLight.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -20,7 +20,7 @@
 @font-face {
 	font-family: 'PeydaWeb-Light';
 	src: url('/fonts/02 Web Font/Font Family WebFont/woff2/PeydaWeb-Light.woff2') format('woff2'),
-		 url('/fonts/02 Web Font/Font Family WebFont/woff/PeydaWeb-Light.woff') format('woff');
+		url('/fonts/02 Web Font/Font Family WebFont/woff/PeydaWeb-Light.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -29,7 +29,7 @@
 @font-face {
 	font-family: 'PeydaWeb-Regular';
 	src: url('/fonts/02 Web Font/Font Family WebFont/woff2/PeydaWeb-Regular.woff2') format('woff2'),
-		 url('/fonts/02 Web Font/Font Family WebFont/woff/PeydaWeb-Regular.woff') format('woff');
+		url('/fonts/02 Web Font/Font Family WebFont/woff/PeydaWeb-Regular.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -38,7 +38,7 @@
 @font-face {
 	font-family: 'PeydaWeb-Medium';
 	src: url('/fonts/02 Web Font/Font Family WebFont/woff2/PeydaWeb-Medium.woff2') format('woff2'),
-		 url('/fonts/02 Web Font/Font Family WebFont/woff/PeydaWeb-Medium.woff') format('woff');
+		url('/fonts/02 Web Font/Font Family WebFont/woff/PeydaWeb-Medium.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -47,7 +47,7 @@
 @font-face {
 	font-family: 'PeydaWeb-SemiBold';
 	src: url('/fonts/02 Web Font/Font Family WebFont/woff2/PeydaWeb-SemiBold.woff2') format('woff2'),
-		 url('/fonts/02 Web Font/Font Family WebFont/woff/PeydaWeb-SemiBold.woff') format('woff');
+		url('/fonts/02 Web Font/Font Family WebFont/woff/PeydaWeb-SemiBold.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -56,7 +56,7 @@
 @font-face {
 	font-family: 'PeydaWeb-Bold';
 	src: url('/fonts/02 Web Font/Font Family WebFont/woff2/PeydaWeb-Bold.woff2') format('woff2'),
-		 url('/fonts/02 Web Font/Font Family WebFont/woff/PeydaWeb-Bold.woff') format('woff');
+		url('/fonts/02 Web Font/Font Family WebFont/woff/PeydaWeb-Bold.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -65,7 +65,7 @@
 @font-face {
 	font-family: 'PeydaWeb-ExtraBold';
 	src: url('/fonts/02 Web Font/Font Family WebFont/woff2/PeydaWeb-ExtraBold.woff2') format('woff2'),
-		 url('/fonts/02 Web Font/Font Family WebFont/woff/PeydaWeb-ExtraBold.woff') format('woff');
+		url('/fonts/02 Web Font/Font Family WebFont/woff/PeydaWeb-ExtraBold.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -74,7 +74,7 @@
 @font-face {
 	font-family: 'PeydaWeb-Black';
 	src: url('/fonts/02 Web Font/Font Family WebFont/woff2/PeydaWeb-Black.woff2') format('woff2'),
-		 url('/fonts/02 Web Font/Font Family WebFont/woff/PeydaWeb-Black.woff') format('woff');
+		url('/fonts/02 Web Font/Font Family WebFont/woff/PeydaWeb-Black.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -83,36 +83,69 @@
 @font-face {
 	font-family: 'PeydaWeb-ExtraBlack';
 	src: url('/fonts/02 Web Font/Font Family WebFont/woff2/PeydaWeb-ExtraBlack.woff2') format('woff2'),
-		 url('/fonts/02 Web Font/Font Family WebFont/woff/PeydaWeb-ExtraBlack.woff') format('woff');
+		url('/fonts/02 Web Font/Font Family WebFont/woff/PeydaWeb-ExtraBlack.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
 }
 
+/* Peyda FaNum Font */
+@font-face {
+	font-family: 'PeydaFaNum-Regular';
+	src: url('/fonts/04 Farsi Numerals/PeydaFaNum-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'PeydaFaNum-Bold';
+	src: url('/fonts/04 Farsi Numerals/PeydaFaNum-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'PeydaFaNum-Medium';
+	src: url('/fonts/04 Farsi Numerals/PeydaFaNum-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'PeydaFaNum-Light';
+	src: url('/fonts/04 Farsi Numerals/PeydaFaNum-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
 html {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #ffffff;
-  
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  background-color: #ffffff;
-  
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #ffffff;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 }
 
 #root {
-  min-height: 100vh;
+	min-height: 100vh;
 }

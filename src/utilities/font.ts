@@ -11,10 +11,11 @@ export const fonts = {
   extraBold: "'PeydaWeb-ExtraBold', system-ui, -apple-system, sans-serif",
   black: "'PeydaWeb-Black', system-ui, -apple-system, sans-serif",
   extraBlack: "'PeydaWeb-ExtraBlack', system-ui, -apple-system, sans-serif",
-  
+
   // Common aliases
   body: "'PeydaWeb-Regular', system-ui, -apple-system, sans-serif",
   heading: "'PeydaWeb-Bold', system-ui, -apple-system, sans-serif",
   mono: "monospace",
+  faNum: "'PeydaFaNum-Regular', system-ui, -apple-system, sans-serif",
 };
 
